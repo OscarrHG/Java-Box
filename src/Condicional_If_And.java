@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class Condicional_If {
+public class Condicional_If_And {
     public static void main(String[] args) {
         String nombre;
         int edad;
