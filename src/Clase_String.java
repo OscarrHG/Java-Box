@@ -7,9 +7,9 @@ public class Clase_String {
 
         //Ingreso de Datos
         System.out.println("Ingrese primera palabra: ");
-        palabra1 = entrada.next();
+        palabra1 = entrada.nextLine();
         System.out.println("Ingrese segunda palabra: ");
-        palabra2 = entrada.next();
+        palabra2 = entrada.nextLine();
 
         //Compara textos
 //        if (palabra1.equals(palabra2)){
@@ -36,5 +36,21 @@ public class Clase_String {
 
         //Saber caracter de una palabra
         System.out.println(palabra1.charAt(3));
+
+        //Identificar substrings
+        System.out.println(palabra1.substring(1,3));
+
+        //Buscar caracteres de interseccion en 2 palabras
+        int coincidencia = palabra1.indexOf(palabra2);
+
+        if (coincidencia == -1){
+            System.out.println(palabra1 + ", no contiene: " + palabra2);
+        } else {
+            System.out.println(palabra1 + " tiene coincidencia con: " + palabra2);
+        }
+
+        //Upper and Lower
+        System.out.println(palabra1.toUpperCase());
+        System.out.println(palabra2.toLowerCase());
     }
 }
