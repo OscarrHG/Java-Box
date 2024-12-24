@@ -20,5 +20,7 @@ public class Bucle_Do_While {
             }
         } while (numero != 5);
         JOptionPane.showMessageDialog(null, "Gracias!!, Nro errores: " + errores);
+
+        //23/12
     }
 }
