@@ -20,7 +20,7 @@ public class Clase_Math {
         var numero2 = 300;
         System.out.println("Mayor valor: " + Math.max(numero2, numero1));
 
-        //Redondear
+        //Redondear 28/12
         var  total = 2.345;
     }
 }
