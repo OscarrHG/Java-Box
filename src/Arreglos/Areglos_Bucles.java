@@ -1,3 +1,5 @@
+package Arreglos;
+
 public class Areglos_Bucles {
     public static void main(String[] args) {
         String[] productos = {"martillo", "destornillador", "taladro", "llave inglesa", "pinzas"};

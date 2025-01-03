@@ -1,3 +1,5 @@
+package Arreglos;
+
 public class Arreglos {
     public static void main(String[] args) {
         //Declaracion de un Array
